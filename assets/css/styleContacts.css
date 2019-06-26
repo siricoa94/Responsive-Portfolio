@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 5px;
+    border-right: 1px solid #ccc;
+    padding: 0 5px;
+}
+
+header {
+    height: 100px;
+}
+
+li:last-child {
+    border: none;
+}
+
+nav {
+    padding-top: 20px;
+    float: right;
+}
+
+header h1 {
+    float: left;
+    padding-top: 55px;
+    margin-left: 200px;
+    background-color: #4aaaa5;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #ffffff;
+    border-color: #cccccc;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    border-top: 1px solid #666;
+    background: #9999;
+    border-color: #dddddd;
+}
+
+#outerMainSection {
+    width: 960px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#AboutMe {
+    padding: 20px;
+    border-bottom: 1px solid #4aaaa5;
+    border-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#BioSection {
+    padding: 20px;
+    height: 350px;
+}
+
+.form_container {
+    float: right;
+    width: 55%;
+    padding: 10px;
+}
+
+#Name {
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    border-width: 100%;
+}
+
+#EmailAdress {
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    border-width: 100%;
+}
+
+#Message {
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    border-width: 100%;
+}
+
+p {
+    display: block;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-top: 1px solid #0da195;
+    color: #fff;
+    background: #666666;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+}
+
+@media only screen and (max-width:996px) {
+    body {
+        background-color: pink;
+        width: 800px;
+    }
+
+    nav {
+        width: 600px;
+    }
+
+    header {
+        width: 600px;
+        height: 100%;
+    }
+
+    #outerMainSection {
+        width: 600px;
+    }
+
+    .container {
+        width: 600px;
+        height: 600px;
+    }
+
+    #BioSection {
+        width: 600px;
+        height: 600px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        background-color: slategray;
+        width: 689px;
+    }
+
+    nav {
+        width: 400px;
+    }
+
+    header {
+        width: 400px;
+        height: 100%;
+    }
+
+    #outerMainSection {
+        width: 400px;
+    }
+
+    .container {
+        width: 400px;
+        height: 400px;
+    }
+
+    #BioSection {
+        width: 400px;
+        height: 400px;
+    }
+
+
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        background-color: lightblue;
+        width: 450px;
+    }
+
+    nav {
+        width: 250px;
+    }
+
+    header {
+        width: 250px;
+        height: 100%;
+    }
+
+    #outerMainSection {
+        width: 250px;
+    }
+
+    .container {
+        width: 250px;
+        height: 250px;
+    }
+
+    #BioSection {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    footer {
+        display: none;
+    }
+
+}

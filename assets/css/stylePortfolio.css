@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  margin-right: 5px;
+  border-right: 1px solid #ccc;
+  padding: 0 5px;
+}
+
+header {
+  height: 100px;
+}
+
+li:last-child {
+  border: none;
+}
+
+nav {
+  padding-top: 20px;
+  float: right;
+}
+
+header h1 {
+  float: left;
+  padding-top: 55px;
+  margin-left: 200px;
+  background-color: #4aaaa5;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: #ffffffff;
+  border-color: #cccccc;
+}
+
+h2 {
+  color: #4aaaa5;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  border-top: 1px solid #666;
+  background: rgba(110, 224, 3, 0.6);
+  border-color: #29d8c9;
+}
+
+#AboutMe {
+  padding: 20px;
+  border-bottom: 1px solid #4aaaa5;
+  border-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#outerMainSection {
+  width: 960px;
+  height: 440px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+#bioSection {
+  padding: 20px;
+  height: 350px;
+}
+
+.bio-image {
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.Image_box {
+  width: 200px;
+  height: 200px;
+}
+
+.mainBio {
+  float: right;
+  width: 55%;
+  padding: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-top: 1px solid #0da195;
+  color: #fff;
+  background: #666666;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+}
+
+.port_image {
+  position: relative;
+  margin: 10px;
+  float: left;
+
+}
+
+.Image_box {
+  height: 150px;
+  width: 150px;
+
+}
+
+.Image_text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: white;
+  padding: 10px;
+}
+
+@media only screen and (max-width:996px) {
+  body {
+    background-color: pink;
+    width: 800px;
+  }
+
+  nav {
+    width: 600px;
+  }
+
+  header {
+    width: 600px;
+    height: 100%;
+  }
+
+  #outerMainSection {
+    width: 600px;
+  }
+
+  .Image_box {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Image_text {
+    width: 0px;
+    height: 0px;
+  }
+
+  .container {
+    width: 600px;
+    height: 600px;
+  }
+
+}
+
+@media only screen and (max-width:768px) {
+  body {
+    background-color: slategray;
+    width: 689px;
+  }
+
+  nav {
+    width: 400px;
+  }
+
+  header {
+    width: 400px;
+    height: 100%;
+  }
+
+  #outerMainSection {
+    width: 400px;
+  }
+
+  .Image_box {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Image_text {
+    width: 0px;
+    height: 0px;
+  }
+
+  .container {
+    width: 400px;
+    height: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: lightblue;
+    width: 450px;
+  }
+
+  nav {
+    width: 250px;
+  }
+
+  header {
+    width: 250px;
+    height: 100%;
+  }
+
+  #outerMainSection {
+    width: 250px;
+  }
+
+  .Image_box {
+    width: 25px;
+    height: 25px;
+  }
+
+  .Image_text {
+    width: 0px;
+    height: 0px;
+  }
+
+
+  .container {
+    width: 250px;
+    height: 250px;
+  }
+
+  footer {
+    display: none;
+  }
+
+
+}
